@@ -4,10 +4,20 @@ Opinionated tmux configs that might get updated.
 
 Installation
 ------------
+Because I'm lazy af sometimes,
+
 ```
 cd ~/.config
 git clone git@github.com:dotfile/tmux.git
 ln -s ~/.config/tmux/tmux.conf ~/.tmux.conf
+```
+
+Or at work,
+
+```
+cd ~/Development/1st/tmux
+git clone git@github.com:dotfile/tmux.git
+ln -s ~/Development/1st/tmux/tmux.conf ~/.tmux.conf
 ```
 
 License
