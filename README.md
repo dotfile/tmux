@@ -20,6 +20,11 @@ git clone git@github.com:dotfile/tmux.git
 ln -s ~/Development/1st/tmux/tmux.conf ~/.tmux.conf
 ```
 
+Reading material
+----------------
+* https://ebzzry.io/en/tmux/
+* https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+
 License
 -------
 This isn't code, so it doesn't even really matter. 
