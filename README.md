@@ -15,9 +15,17 @@ ln -s ~/.config/tmux/tmux.conf ~/.tmux.conf
 Or at work,
 
 ```
-cd ~/Development/1st/tmux
+mkdir -p ~/Development/1st && cd ~/Development/1st
 git clone git@github.com:dotfile/tmux.git
 ln -s ~/Development/1st/tmux/tmux.conf ~/.tmux.conf
+```
+
+And add a local `.git/config` user override:
+
+```
+[user]
+	name = "Brandon Thomas"
+	email = "EMAIL"
 ```
 
 Reading material
